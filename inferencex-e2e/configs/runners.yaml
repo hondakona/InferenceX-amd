@@ -87,16 +87,7 @@ labels:
     - mi325x-amd_07
     - mi325x-amd_08
   mi355x:
-    - mi355x-amds_00
     - mi355x-amds_01
-    - mi355x-amds_02
-    - mi355x-amds_03
-    - mi355x-amds_04
-    - mi355x-amds_05
-    - mi355x-amds_06
-    - mi355x-amds_07
-    - mi355x-amds_08
-    - mi355x-amds_09
   gb200:
     - gb200-nv_00
     - gb200-nv_01
