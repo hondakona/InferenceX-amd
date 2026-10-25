@@ -59,6 +59,8 @@ base:
         VLLM_USE_DIRECT_DCP_KV_GATHER: '0'
         # Route DCP multi-token verify through the AITER ASM round-robin decode.
         VLLM_ROCM_AITER_MLA_DCP_VERIFY: asm
+  srun_options:
+    export: 'ALL,ENROOT_ROOTFS_WRITABLE=1'
   benchmark:
     env:
       # Long agentic turns against a 1M context are prefill-bound on the server.
