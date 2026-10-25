@@ -143,7 +143,7 @@ override_tp8_c4_dcp8_simple:
     env:
       CONC: '4'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
 
 override_tp8_c10_dcp8_simple:
   roles:
@@ -164,7 +164,7 @@ override_tp8_c10_dcp8_simple:
     env:
       CONC: '10'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
 
 override_tp8_c12_dcp8_simple:
   roles:
@@ -185,7 +185,7 @@ override_tp8_c12_dcp8_simple:
     env:
       CONC: '12'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
 
 override_tp8_c14_dcp8_simple:
   roles:
@@ -206,7 +206,7 @@ override_tp8_c14_dcp8_simple:
     env:
       CONC: '14'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
 
 override_tp8_c16_dcp8_simple:
   roles:
@@ -227,7 +227,7 @@ override_tp8_c16_dcp8_simple:
     env:
       CONC: '16'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
 
 override_tp8_c44_dcp8_simple:
   roles:
@@ -248,7 +248,7 @@ override_tp8_c44_dcp8_simple:
     env:
       CONC: '44'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
       SPEC_DECODING: 'mtp'
 
 override_tp8_c48_dcp8_simple:
@@ -270,7 +270,7 @@ override_tp8_c48_dcp8_simple:
     env:
       CONC: '48'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
       SPEC_DECODING: 'mtp'
 
 override_tp8_c50_dcp8_simple:
@@ -292,5 +292,5 @@ override_tp8_c50_dcp8_simple:
     env:
       CONC: '50'
       KV_OFFLOADING: 'dram'
-      TOTAL_CPU_DRAM_GB: '1799'
+      TOTAL_CPU_DRAM_GB: '1500'
       SPEC_DECODING: 'mtp'
