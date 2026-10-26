@@ -745,7 +745,8 @@ kimik3-fp4-mi355x-vllm-agentic-mtp:
   #image: vllm/vllm-openai-rocm:nightly-rocm100-81198e97ba7eee2a22540caaa756b7fdddcb4d93
   #image: vllm/vllm-openai-rocm:nightly-rocm100-c50aca14416ef29f6ed0ed256302f30646726dcd
   #image: vllm/vllm-openai-rocm:nightly-rocm100-e4a5b5537344b103ed10de7764378ef09604ef3d
-  image: vllm/vllm-openai-rocm:nightly-rocm100-49cb2bbf71cfd36ee5aa33d1e184b1cddff55294
+  #image: vllm/vllm-openai-rocm:nightly-rocm100-49cb2bbf71cfd36ee5aa33d1e184b1cddff55294 can run but warmup 4hrs
+  image: vllm/vllm-openai-rocm:nightly-rocm100
   model: moonshotai/Kimi-K3
   model-prefix: kimik3
   runner: cluster:mi355x-amds
